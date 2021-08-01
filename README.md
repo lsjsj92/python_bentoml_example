@@ -3,7 +3,8 @@ Python bentoML API serving example for serving machine learning model with API
 
 ### Info & reference
 > Blog post (Description)
-    - https://lsjsj92.tistory.com/621
+    - https://lsjsj92.tistory.com/621  
+
 > refer
     - https://github.com/bentoml/BentoML
 
