@@ -1,25 +1,39 @@
-# Python bentoml for 
-Python bentoML API serving example for machine learning model
+# Python bentoml for Machine Learning model API serving
+Python bentoML API serving example for serving machine learning model with API
 
 ### Info & reference
-> contact : lsjsj92.tistory.com 
-> refer : https://github.com/lsjsj92/python_bentoml_example
+> Blog post (Description)
+    - https://lsjsj92.tistory.com/621
+> refer
+    - https://github.com/bentoml/BentoML
 
 
 ## Description
+
 - bentoml_process.py
-    - asdf
+    - Packing data with BentoML classifier
 - classifier.py
-    - asdf
+    - BentoML classifier
+    - Make BentoML model API environment
 - main.py
-    - asdf
+    - Main file on this process
+    - start with is_keras argument 
+        - 1 : use tensorflow(keras)
+        - 0 : non use tensorflow(keras), use scikit learn
+    - Execute titanic modeling
+    - Execute BentoML Packing
 - titanic.py
-    - asdf
+    - Main of Titniac process
+    - data load -> preprocess -> ML/DL modeling -> return model
 - model.py
-    - asdf
+    - Machine Learning or Deep Learning Modeling part
+    - Machine Learning : use scikit-learn library or lightgbm
+    - Deep Learning : use tensorflow library ( keras )
 - preprocess.py
-    - asdf
+    - Preprocess part
+    - Preprocess titanic data
 - config.py
-    - asdf
+    - Config part
 - dataio.py
-    - asdf
+    - Data io part
+    - Get data
